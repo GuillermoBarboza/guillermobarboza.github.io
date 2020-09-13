@@ -1,3 +1,36 @@
+@font-face { 
+  font-family: Metropolis; 
+  src: url('./Metropolis-Regular.otf'); 
+} 
+
+* {
+  font-family: Metropolis;
+}
 .header {
   background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%)
+}
+
+.nav-link:after {
+  display: none;
+}
+.svg {
+  max-height: 5vh;
+}
+
+/*arrow closed and open positions */
+.dropdown-toggle[aria-expanded="true"] > i {
+  transform: rotate(90deg);
+}
+
+
+/*for the animation*/
+.dropdown-toggle > i {
+  transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+  nav {
+    background-color: #343a40;
+  }
+
 }
