@@ -13,6 +13,8 @@
 .nav-link:after {
   display: none;
 }
+
+
 .svg {
   max-height: 5vh;
 }
@@ -31,6 +33,16 @@
 @media (max-width: 991px) {
   nav {
     background-color: #343a40;
+    transition: 0.5s;
   }
+}
+@media (min-width: 991px){
+  .dropdown-menu {
+    min-width: 45rem;
+    transform: translateX(20%);
+  }
+
+}
+footer > a {
 
 }

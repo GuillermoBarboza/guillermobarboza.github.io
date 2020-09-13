@@ -18,7 +18,7 @@
   </head>
   <body>
     <!--NAV BAR-->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
         <a class="navbar-brand text-light mt-3 mb-3" href="#">SB UI Kit Pro</a>
         <button
@@ -39,31 +39,16 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Landings <i class="fas fa-chevron-right"></i>
+              <a class="nav-link dropdown-toggle d-flex align-items-center justify-content-between" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                Landings <i class="fas fa-chevron-right px-2"></i>
               </a>
-              <div
-                class="dropdown-menu p-0"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink" >
                 <div class="row no-gutters">
-                  <div
-                    id="img-dropdown"
-                    class="col-lg-4 d-flex justify-content-center align-items-center"
-                  >
+                  <div class="col-lg-4 d-flex justify-content-center align-items-center" >
                     <p class="text-center">
                       Multipurpose landing pages for a variety of projects.
                     </p>
-                    <a href="" class="rounded-pill anchorStyle-nav"
-                      >VIEW ALL
+                    <a href="#" class="rounded-pill" >VIEW ALL
                     </a>
                   </div>
                   <div class="col-lg-8">
@@ -105,7 +90,7 @@
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle d-flex align-items-center justify-content-between"
                 href="#"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -113,10 +98,10 @@
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Pages <i class="fas fa-chevron-right"></i>
+                Pages <i class="fas fa-chevron-right px-2"></i>
               </a>
               <div
-                class="dropdown-menu dropdown-pages"
+                class="dropdown-menu dropdown-menu-right"
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <div class="row p-lg-4">
@@ -155,7 +140,7 @@
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle d-flex align-items-center justify-content-between"
                 href="#"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -163,13 +148,13 @@
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                Documentation <i class="fas fa-chevron-right"></i>
+                Documentation <i class="fas fa-chevron-right px-2"></i>
               </a>
               <div
-                class="dropdown-menu dropdown-menu-documentation"
+                class="dropdown-menu dropdown-menu-right"
                 aria-labelledby="navbarDropdownMenuLink"
               >
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item ">
                   <div class="row">
                     <div
                       class="col-4 d-flex justify-content-center align-items-center"
@@ -182,7 +167,7 @@
                     </div>
                   </div>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item ">
                   <div class="row">
                     <div
                       class="col-4 d-flex justify-content-center align-items-center"
@@ -195,7 +180,7 @@
                     </div>
                   </div>
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="#" class="list-group-item ">
                   <div class="row">
                     <div
                       class="col-4 d-flex justify-content-center align-items-center"
@@ -229,7 +214,7 @@
               <h1 class="pt-5 text-light">Build your next project faster with SB UI Kit Pro</h1>
               <p class="text-light">Welcome to SB UI Kit Pro, a toolkit for building beautiful web interfaces, created by the developmet team at Start Bootstrap</p>
               <a class="btn btn-success rounded-pill" href="#">View Demo <i class="fas fa-arrow-right"></i></a>
-              <a href="#">Documentation</a>
+              <a class="text-light" href="#">Documentation</a>
             </div>
             <div class="col d-none d-lg-block">
               <div class="img-fluid">
@@ -305,67 +290,93 @@
     </header>
 
     <!--MAIN-->
-    <main>
+    <main class="mb-5">
       <!--Landing Pages-->
-      <section>
+      <section class="pt-5">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-7 text-center">
-              <p class="badge">12</p>
-              <h2>Landing Page</h2>
-              <p>
-                When you purchase this UI Kit, you get access to a robust suite of powerful landing page demos to help you get started.
-              </p>
+            <div class="col-lg-7 text-center ">
+              <div class="pb-4 mb-5 mt-5">
+                <p class="badge badge-pill badge-primary">12 Demos!</p>
+                <h2>Landing Page</h2>
+                <p>
+                  When you purchase this UI Kit, you get access to a robust suite of powerful landing page demos to help you get started.
+                </p>
+              </div>
             </div> 
           </div>
-          <div class="row">
+          <div class="row text-center">
             <div class="col-lg-4">
-              <h6>Demo 1 - Multipurpose</h6>
-              <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-multipurpose.jpg" alt="Multipourpose landing template" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 1 - Multipurpose</h6>
+                <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-multipurpose.jpg" alt="Multipourpose landing template" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
             <div class="col-lg-4">
-              <h6>Demo 2 - Mobile App</h6>
-              <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-app-mobile.jpg" alt="Mobile app landing page example" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 2 - Mobile App</h6>
+                <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-app-mobile.jpg" alt="Mobile app landing page example" class="img-fluid shadow rounded"></a>
+              </div> 
             </div>
             <div class="col-lg-4">
-              <h6>Demo 3 - Desktop App</h6>
-              <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-app-desktop.jpg" alt="Landing page for desktop app" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 3 - Desktop App</h6>
+                <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-app-desktop.jpg" alt="Landing page for desktop app" class="img-fluid shadow rounded"></a>
+              </div> 
             </div>
             <div class="col-lg-4">
-              <h6>Demo 4 - Agency</h6>
-              <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-agency.jpg" alt="Agency landing pages" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 4 - Agency</h6>
+                <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-agency.jpg" alt="Agency landing pages" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
             <div class="col-lg-4">
-              <h6>Demo 5 - Lead Capture</h6>
-              <a href=""><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-lead-capture.jpg" alt="Lead capture" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 5 - Lead Capture</h6>
+                <a href=""><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-lead-capture.jpg" alt="Lead capture" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
             <div class="col-lg-4">
-              <h6>Demo 6 - Press</h6>
-              <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-press.jpg" alt="Press landing page templating" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 6 - Press</h6>
+                <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-press.jpg" alt="Press landing page templating" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
             <div class="col-lg-4">
-              <h6>Demo 7 - Directory  </h6>
-              <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-directory.jpg" alt="Directories landing sites" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 7 - Directory  </h6>
+                <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-directory.jpg" alt="Directories landing sites" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
             <div class="col-lg-4">
-              <h6>Demo 8 - Rental</h6>
-              <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-rental.jpg" alt="Landing page for rental business" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 8 - Rental</h6>
+                <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-rental.jpg" alt="Landing page for rental business" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
             <div class="col-lg-4">
-              <h6>Demo 9 - Real Estate</h6>
-              <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-real-estate.jpg" alt="Real Estate landing sites" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 9 - Real Estate</h6>
+                <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-real-estate.jpg" alt="Real Estate landing sites" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
             <div class="col-lg-4">
-              <h6>Demo 10 - Classifieds</h6>
-              <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-classifieds.jpg" alt="Custom landing pages for Classifieds" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 10 - Classifieds</h6>
+                <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-classifieds.jpg" alt="Custom landing pages for Classifieds" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
             <div class="col-lg-4">
-              <h6>Demo 11 - Resume</h6>
-              <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-resume.jpg" alt="Resume static pages" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 11 - Resume</h6>
+                <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-resume.jpg" alt="Resume static pages" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
             <div class="col-lg-4">
-              <h6>Demo 12 - Portfolio</h6>
-              <a href=""><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-portfolio.jpg" alt="Landing pages for personal and business Portfolios" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 12 - Portfolio</h6>
+                <a href=""><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/landing-portfolio.jpg" alt="Landing pages for personal and business Portfolios" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
           </div>
         </div>
@@ -375,69 +386,67 @@
       </section>
       
       <!--Inner Pages-->
-      <section>
+      <section class="bg-light">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-7 text-center">
-              <p class="badge">19 Pages!</p>
-              <h2>Inner Pages</h2>
-              <p>
-                A group of pre-build inner page demos are available to get your started when building out the rest of your project!
-              </p>
+              <div class="pb-4 mb-5 mt-5">
+                <p class="badge badge-pill badge-primary">19 Pages!</p>
+                <h2>Inner Pages</h2>
+                <p>
+                  A group of pre-build inner page demos are available to get your started when building out the rest of your project!
+                </p>
+              </div>
             </div> 
           </div>
           <div class="row">
             <div class="col-lg-4">
               <h6>Company Pages</h6>
-              <div>
+              <div class="shadow mb-5">
                 <ul class="list-group list-unstyled">
-                  <li class="list-group-item"><a href="#">Basic Page <i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#"><i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#"><i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#"><i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#"><i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item"><a class="d-flex align-items-center justify-content-between" href="#">Basic Page <i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">About Page<i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Pricing Page<i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Contact Page<i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Teams Page<i class="fas fa-arrow-right"></i></a></li>
                 </ul>
               </div>
-              <h6></h6>
-              <div>
+              <h6>Careers Pages</h6>
+              <div class="shadow mb-5">
                 <ul class="list-group list-unstyled">
-                  <li class="list-group-item"><a href="#">Basic Page <i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#"><i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#"><i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#"><i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#"><i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Careers List <i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Position Details<i class="fas fa-arrow-right"></i></a></li> 
                 </ul>
               </div>
             </div>
             <div class="col-lg-4">
-              <h6></h6>
-              <div>
+              <h6>Support Pages</h6>
+              <div class="shadow mb-5">
                 <ul class="list-group list-unstyled">
-                  <li class="list-group-item"><a href="#">Basic Page <i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#"><i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#"><i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#"><i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#"><i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Help Center<i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Knowledgebase<i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Message Center<i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Support Ticket<i class="fas fa-arrow-right"></i></a></li> 
                 </ul>
               </div>
               <h6>Blog Pages</h6>
-              <div>
+              <div class="shadow mb-5">
                 <ul class="list-group list-unstyled">
-                  <li class="list-group-item"><a href="#">Overview<i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#">Post<i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#">Archive<i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Overview<i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Post<i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Archive<i class="fas fa-arrow-right"></i></a></li>
                 </ul>
               </div>
             </div>
             <div class="col-lg-4">
               <h6>Portfolio Pages</h6>
-              <div>
+              <div class="shadow mb-5">
                 <ul class="list-group list-unstyled">
-                  <li class="list-group-item"><a href="#">Grid<i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#">Large Grid<i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#">Masonry<i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#">Case Study<i class="fas fa-arrow-right"></i></a></li>
-                  <li class="list-group-item"><a href="#">Project<i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Grid<i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Large Grid<i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Masonry<i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Case Study<i class="fas fa-arrow-right"></i></a></li>
+                  <li class="list-group-item "><a class="d-flex align-items-center justify-content-between" href="#">Project<i class="fas fa-arrow-right"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -449,41 +458,55 @@
       </section>
 
       <!--Header Examples-->
-      <section>
+      <section >
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-7 text-center">
-              <p class="badge">Customizable!</p>
-              <h2>Header Examples</h2>
-              <p>
-                Build your own landing page by starting with one of these customizable header examples! You can customize the colors, content, borders, and more!
-              </p>
+              <div class="pb-4 mb-5 mt-5">
+                <p class="badge badge-pill badge-primary">Customizable!</p>
+                <h2>Header Examples</h2>
+                <p>
+                  Build your own landing page by starting with one of these customizable header examples! You can customize the colors, content, borders, and more!
+                </p>
+              </div>
             </div> 
           </div>
-          <div class="row">
+          <div class="row text-center">
             <div class="col-lg-4">
-              <h6>Demo 1 - Basic</h6>
-              <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/header-basic.jpg" alt="Basic header example" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 1 - Basic</h6>
+                <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/header-basic.jpg" alt="Basic header example" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
             <div class="col-lg-4">
-              <h6>Demo 2 - Basic (Signup)</h6>
-              <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/header-basic-signup.jpg" alt="Header example with signup" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 2 - Basic (Signup)</h6>
+                <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/header-basic-signup.jpg" alt="Header example with signup" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
             <div class="col-lg-4">
-              <h6>Demo 3 - Graphic</h6>
-              <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/header-graphic.jpg" alt="Graphic design type header" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 3 - Graphic</h6>
+                <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/header-graphic.jpg" alt="Graphic design type header" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
             <div class="col-lg-4">
-              <h6>Demo 4 - Graphic (Signup)</h6>
-              <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/header-graphic-signup.jpg" alt="Graphic design type header with signup" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 4 - Graphic (Signup)</h6>
+                <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/header-graphic-signup.jpg" alt="Graphic design type header with signup" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
             <div class="col-lg-4">
-              <h6>Demo 5 - Inner Page</h6>
-              <a href=""><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/header-inner-page.jpg" alt="Inner page header" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 5 - Inner Page</h6>
+                <a href=""><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/header-inner-page.jpg" alt="Inner page header" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
             <div class="col-lg-4">
-              <h6>Demo 6 - Nav Only</h6>
-              <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/header-nav-only.jpg" alt="Only nav bar show" class="img-fluid"></a>
+              <div class="mb-5">
+                <h6>Demo 6 - Nav Only</h6>
+                <a href="#"><img src="https://themes.startbootstrap.com/sb-ui-kit-pro/assets/img/screenshots/header-nav-only.jpg" alt="Only nav bar show" class="img-fluid shadow rounded"></a>
+              </div>
             </div>
           </div>
         </div>  
@@ -493,94 +516,102 @@
       </section>
 
       <!--Documentation-->
-      <section>
+      <section class="bg-light pt-5">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-7 text-center">
-              <h2>Documentation</h2>
-              <p>Comprehensive documentation includes usage instructions, component reference, and utility class usage instructions</p>
+              <div class="pb-4 mb-5 mt-5">
+                <h2 class="font-weight-bold">Documentation</h2>
+                <p>Comprehensive documentation includes usage instructions, component reference, and utility class usage instructions</p>
+              </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-lg-4">
-              <span>70+</span>
-              <h5>Custom/Extended Components</h5>
-              <p>We've extended and restyled Bootstrap's default components, and built a suite of new custom components.</p>
+            <div class="col-lg-4 text-center">
+              <div class="mb-5 mt-5">
+                <span class="display-1 text-muted">70+</span>
+                <h5 class="font-weight-bold">Custom/Extended Components</h5>
+                <p>We've extended and restyled Bootstrap's default components, and built a suite of new custom components.</p>
+              </div>
             </div>
-            <div class="col-lg-4">
-              <span>35+</span>
-              <h5>Pre-Built Page Examples</h5>
-              <p>Our pre-built page examples are a perfect way to get inspired for creating new pages and views. </p>
+            <div class="col-lg-4 text-center">
+              <div class="my-5">
+                <span class="display-1 text-muted">35+</span>
+                <h5 class="font-weight-bold">Pre-Built Page Examples</h5>
+                <p>Our pre-built page examples are a perfect way to get inspired for creating new pages and views. </p>
+              </div> 
             </div>
-            <div class="col-lg-4">
-              <span>100+</span>
-              <h5>Custom/Extended Utilites</h5>
-              <p>We've extended and created new utility classes to give you more control over your content with minimal custom CSS.</p>
+            <div class="col-lg-4 text-center">
+              <div class="my-5">
+                <span class="display-1 text-muted">100+</span>
+                <h5 class="font-weight-bold">Custom/Extended Utilites</h5>
+                <p>We've extended and created new utility classes to give you more control over your content with minimal custom CSS.</p>
+              </div>
             </div>
           </div>
           <div class="text-center">
               <a class="btn btn-primary rounded-pill" href="https://docs.startbootstrap.com/sb-ui-kit-pro/quickstart">View Documentation</a>
           </div>
         </div>
-        <div class="svg text-white">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
+        <div class="text-white">
+          <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.54 17.34" preserveAspectRatio="none" fill="currentColor"><path d="M144.54,17.34H0V0H144.54ZM0,0S32.36,17.34,72.27,17.34,144.54,0,144.54,0"></path></svg>
         </div>
       </section>
     </main>
 
     <!--FOOTER-->
-    <footer>
+    <footer class="text-muted">
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
-              <h4>SB UI Kit Pro</h4>
+              <h4 class="font-weight-bold">SB UI Kit Pro</h4>
               <p>Build better websites</p>
-              <ul class="list-group list-unstyled d-flex flex-row justify-content-start">
-                <li><i class="fab fa-instagram"></i></li>
-                <li><i class="fab fa-facebook"></i></li>
-                <li><i class="fab fa-github"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
+              <ul class="list-group list-unstyled d-flex flex-row justify-content-start mb-5">
+                <li class="px-1"><i class="fab fa-instagram"></i></li>
+                <li class="px-1"><i class="fab fa-facebook"></i></li>
+                <li class="px-1"><i class="fab fa-github"></i></li>
+                <li class="px-1"><i class="fab fa-twitter"></i></li>
               </ul>
           </div>
           <div class="col-lg-9">
             <div class="row">
-              <div class="col-lg-3 col-md-6">
-                <h6>PRODUCT</h6>
+              <div class="col-lg-3 col-md-6 mb-4">
+                <h6 class="font-weight-bold">PRODUCT</h6>
                 <ul class="list-group list-unstyled">
-                  <li><a href="" >Landing</a></li>
-                  <li><a href="" >Pages</a></li>
-                  <li><a href="" >Sections</a></li>
-                  <li><a href="" >Documentation</a></li>
-                  <li><a href="" >Changelog</a></li>
+                  <li><a class="text-muted" href="" >Landing</a></li>
+                  <li><a class="text-muted" href="" >Pages</a></li>
+                  <li><a class="text-muted" href="" >Sections</a></li>
+                  <li><a class="text-muted" href="" >Documentation</a></li>
+                  <li><a class="text-muted" href="" >Changelog</a></li>
                 </ul>
               </div>
-              <div class="col-lg-3 col-md-6">
-                <h6>TECHNICAL</h6>
+              <div class="col-lg-3 col-md-6 mb-4">
+                <h6 class="font-weight-bold">TECHNICAL</h6>
                 <ul class="list-group list-unstyled">
-                  <li><a href="" >Documentation</a></li>
-                  <li><a href="" >Changelog</a></li>
-                  <li><a href="" >Theme Customizer</a></li>
-                  <li><a href="" >UI Kit</a></li>
+                  <li><a class="text-muted" href="" >Documentation</a></li>
+                  <li><a class="text-muted" href="" >Changelog</a></li>
+                  <li><a class="text-muted" href="" >Theme Customizer</a></li>
+                  <li><a class="text-muted" href="" >UI Kit</a></li>
                 </ul>
               </div>
-              <div class="col-lg-3 col-md-6">
-                <h6>INCLUDES</h6>
+              <div class="col-lg-3 col-md-6 mb-4">
+                <h6 class="font-weight-bold">INCLUDES</h6>
                 <ul class="list-group list-unstyled">
-                  <li><a href="" >Utilities</a></li>
-                  <li><a href="" >Components</a></li>
-                  <li><a href="" >Layouts</a></li>
-                  <li><a href="" >Code Samples</a></li>
-                  <li><a href="" >Products</a></li>
-                  <li><a href="" >Affiliates</a></li>
-                  <li><a href="" >Updates</a></li>
+                  <li><a class="text-muted" href="" >Utilities</a></li>
+                  <li><a class="text-muted" href="" >Components</a></li>
+                  <li><a class="text-muted" href="" >Layouts</a></li>
+                  <li><a class="text-muted" href="" >Code Samples</a></li>
+                  <li><a class="text-muted" href="" >Products</a></li>
+                  <li><a class="text-muted" href="" >Affiliates</a></li>
+                  <li><a class="text-muted" href="" >Updates</a></li>
                 </ul>
               </div>
-              <div class="col-lg-3 col-md-6">
-                <h6>LEGAL</h6>
+              <div class="col-lg-3 col-md-6 mb-4">
+                <h6 class="font-weight-bold">LEGAL</h6>
                 <ul class="list-group list-unstyled">
-                  <li><a href="" >Privacy Policy</a></li>
-                  <li><a href="" >Terms and Conditions</a></li>
-                  <li><a href="" >License</a></li>
+                  <li><a class="text-muted" href="" >Privacy Policy</a></li>
+                  <li><a class="text-muted" href="" >Terms and Conditions</a></li>
+                  <li><a class="text-muted" href="" >License</a></li>
                 </ul>
               </div>
             </div>
@@ -588,16 +619,19 @@
           
         </div>
         <hr>
-        <div class="row">
-          <div class="col-md-6">
-            <p>Copyright © Your Website 2020</p>
-          </div>
-          <div class="col-md-6">
-            <a href="">Privacy Policy</a>
-            · 
-            <a href="">Terms & Conditions</a>
+        <div class="p-3">
+          <div class="row">
+            <div class="col-md-6">
+              <p>Copyright © Your Website 2020</p>
+            </div>
+            <div class="col-md-6">
+              <a class="text-muted" href="">Privacy Policy</a>
+              · 
+              <a class="text-muted" href="">Terms & Conditions</a>
+            </div>
           </div>
         </div>
+        
       </div>
     </footer>
     
