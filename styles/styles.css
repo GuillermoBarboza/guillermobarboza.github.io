@@ -10,6 +10,7 @@
   background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%)
 }
 
+/* quita la flechita que viene por defecto en los dropdown*/
 .nav-link:after {
   display: none;
 }
@@ -19,13 +20,12 @@
   max-height: 5vh;
 }
 
-/*arrow closed and open positions */
+/*arrow open position */
 .dropdown-toggle[aria-expanded="true"] > i {
   transform: rotate(90deg);
 }
 
-
-/*for the animation*/
+/*for the rotation animation*/
 .dropdown-toggle > i {
   transition: 0.5s;
 }
@@ -41,8 +41,5 @@
     min-width: 45rem;
     transform: translateX(20%);
   }
-
-}
-footer > a {
 
 }
